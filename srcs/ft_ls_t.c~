@@ -6,7 +6,7 @@
 /*   By: rbaum <rbaum@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/01/05 16:17:59 by rbaum             #+#    #+#             */
-/*   Updated: 2015/02/10 22:13:21 by rbaum            ###   ########.fr       */
+/*   Updated: 2015/02/09 21:34:07 by rbaum            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ void	sort_list_time(t_param *param)
 			one->st_mtime > two->st_mtime)
 			sort_list_swap(param, begin, begin2);
 //		else if (one->st_mtime == two->st_mtime)
-		//		sort_equ(param);
+//			sort_equ(param);
 		else
 			ft_next(param);
 	}
